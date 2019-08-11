@@ -1,0 +1,12 @@
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\bin\Debug\netstandard2.0\Clinic.Core.dll
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\obj\Debug\netstandard2.0\Clinic.Infrastructure.csprojAssemblyReference.cache
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\obj\Debug\netstandard2.0\Clinic.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\obj\Debug\netstandard2.0\Clinic.Infrastructure.AssemblyInfoInputs.cache
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\obj\Debug\netstandard2.0\Clinic.Infrastructure.AssemblyInfo.cs
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\bin\Debug\netstandard2.0\Clinic.Infrastructure.deps.json
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\bin\Debug\netstandard2.0\Clinic.Infrastructure.dll
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\bin\Debug\netstandard2.0\Clinic.Infrastructure.pdb
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\bin\Debug\netstandard2.0\Clinic.Core.pdb
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\obj\Debug\netstandard2.0\Clinic.Infrastructure.csproj.CopyComplete
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\obj\Debug\netstandard2.0\Clinic.Infrastructure.dll
+E:\Projekty\Clinic\Clinic-API\Clinic.Infrastructure\obj\Debug\netstandard2.0\Clinic.Infrastructure.pdb

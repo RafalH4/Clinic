@@ -6,6 +6,7 @@ namespace Clinic.Core.Domain
 {
     public class Contract
     {
+        public Guid Id { get; set; }
         public Doctor Doctor { get; set; }
         public Department Department { get; set; }
         public decimal Salary { get; set; }

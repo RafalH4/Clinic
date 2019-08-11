@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Clinic.Core.Domain
 {
-    class Receptionist
+    public class Receptionist : User
     {
     }
 }

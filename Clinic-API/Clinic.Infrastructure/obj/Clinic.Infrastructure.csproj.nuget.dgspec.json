@@ -4,14 +4,14 @@
     "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj": {
+    "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Core\\Clinic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj",
-        "projectName": "Clinic.Infrastructure",
-        "projectPath": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj",
+        "projectUniqueName": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Core\\Clinic.Core.csproj",
+        "projectName": "Clinic.Core",
+        "projectPath": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Core\\Clinic.Core.csproj",
         "packagesPath": "C:\\Users\\rhuk\\.nuget\\packages\\",
-        "outputPath": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Infrastructure\\obj\\",
+        "outputPath": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,70 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj",
+        "projectName": "Clinic.Infrastructure",
+        "projectPath": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rhuk\\.nuget\\packages\\",
+        "outputPath": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rhuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Core\\Clinic.Core.csproj": {
+                "projectPath": "E:\\Projekty\\Clinic\\Clinic-API\\Clinic.Core\\Clinic.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
